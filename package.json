@@ -1,0 +1,16 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "start": "npx json-server backend/db.json --watch --port=5000"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.5"
+  },
+  "keywords": []
+}
