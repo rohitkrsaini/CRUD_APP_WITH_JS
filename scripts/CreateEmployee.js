@@ -12,9 +12,15 @@ const stateEle = document.getElementById("state");
 const countryEle = document.getElementById("country");
 const zipCodeEle = document.getElementById("zipcode");
 
+console.log(employeeFormEle);
+
+
+
 employeeFormEle.addEventListener("submit", async (e) => {
+  console.log(employeeFormEle);
+  console.log("Form Submitted",e);
+  
   e.preventDefault();
-  console.log("Form Submitted");
 
   // CREATE NEW EMP OBJECT
   let newEmployeeData = {
@@ -42,7 +48,10 @@ employeeFormEle.addEventListener("submit", async (e) => {
       },
       body: JSON.stringify(newEmployeeData),// <-- SEND EMP DATA IN JSON-FORMAT 
     });
-    console.log(resp);
+    //console.log(resp);
+    //let data = await resp.json();
+//console.log(data);
+    //alert(resp);
     
   } catch (err) {
     console.log(err);

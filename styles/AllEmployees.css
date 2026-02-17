@@ -96,6 +96,15 @@ a{
   box-shadow: 0 12px 30px rgba(30, 94, 216, 0.4);
 }
 
+.employee-table{
+  width: 100%;
+}
+
+.employee-table tr th, .employee-table tr td{
+  text-align: center;
+  border: 1px solid #0e0303;
+}
+
 /* ================== RESPONSIVE ================== */
 @media (max-width: 768px) {
   .navbar-container {
@@ -117,4 +126,23 @@ a{
   .hero-container p {
     font-size: 16px;
   }
+}
+
+.btn{
+  padding: 4px 20px;
+  font-size: 10px;
+  font-weight: 400;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(30, 94, 216, 0.3);
+}
+
+.btn-edit{
+  background: linear-gradient(135deg, #143c8b, #1e5ed8);
+}
+.btn-delete{
+  background-color: red;;
 }

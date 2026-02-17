@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CreateEmployee</title>
-    <link rel="stylesheet" href="/styles/CreateEmployee.css">
+    <title>Edit Emp Deatils</title>
+    <link rel="stylesheet" href="/styles/EditEmp.css"/>
 </head>
 <body>
-    <!-- navbar -->
-     <nav class="navbar-container">
+   <nav class="navbar-container">
         <figure><a href="/index.html">CRUD-APP</a>
         </figure>
 
@@ -18,11 +17,10 @@
         </div>
     </nav>
 
-     <!-- FORM CONTAINER -->
     <section class="form-wrapper">
-      <h1>Create Employee</h1>
+      <h1>Edit Employee</h1>
 
-      <form class="employee-form" id="employee-form" >
+      <form class="employee-form" id="employee-form" action="javascript:void">
         <!-- FULL NAME -->
         <div class="form-group">
           <label>Full Name</label>
@@ -79,10 +77,11 @@
           <input type="text" placeholder="ZIP Code" id="zipcode"/>
         </div>
 
+        <input type="hidden" id="emp-id"  value="55"/>
         <!-- BUTTON -->
-        <button type="submit" class="submit-btn">REGISTER ME</button>
+        <button type="submit" class="submit-btn">UPDATE</button>
       </form>
     </section>
-    <script src="../scripts/CreateEmployee.js"></script>
-  </body>
-  </html>
+    <script src="../scripts/Edit.js"></script>
+</body>
+</html>

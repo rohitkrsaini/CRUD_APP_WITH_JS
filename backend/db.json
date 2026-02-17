@@ -1,3 +1,72 @@
 {
-    "employees": []
+  "employees": [
+    {
+      "firstname": "Rajan",
+      "middlename": "Singh",
+      "lastname": "SAINI",
+      "dob": "2010-01-01",
+      "email": "rajan@gmail.com",
+      "maritalstatus": "single",
+      "phoneno": "07037159320",
+      "address": {
+        "street": "saharanpur u.p , takipur",
+        "city": "saharanpur",
+        "state": "saharanpur",
+        "country": "India",
+        "zipcode": "247662"
+      },
+      "id": "0f80"
+    },
+    {
+      "id": "4bc4",
+      "firstname": "Rohit",
+      "middlename": "KUMAR",
+      "lastname": "SAINI",
+      "dob": "2002-07-28",
+      "email": "rohit.rksaini28@gmail.com",
+      "maritalstatus": "single",
+      "phoneno": "7037159320",
+      "address": {
+        "street": "saharanpur u.p",
+        "city": "saharanpur",
+        "state": "uttar pradesh",
+        "country": "India",
+        "zipcode": "247662"
+      }
+    },
+    {
+      "firstname": "Mohit",
+      "middlename": "kumar",
+      "lastname": "Singh",
+      "dob": "2000-05-01",
+      "email": "mohit@gmail.com",
+      "maritalstatus": "single",
+      "phoneno": "8393090648",
+      "address": {
+        "street": "saharanpur",
+        "city": "uttar pradesh",
+        "state": "uttar pradesh",
+        "country": "India",
+        "zipcode": "247662"
+      },
+      "id": "28dc"
+    },
+    {
+      "id": "5bc4",
+      "firstname": "Anshul",
+      "middlename": "kumar",
+      "lastname": "saini",
+      "dob": "2005-08-13",
+      "email": "anshul@gmail.com",
+      "maritalstatus": "married",
+      "phoneno": "9874563210",
+      "address": {
+        "street": "roorkee",
+        "city": "haridwar",
+        "state": "uttrakhand",
+        "country": "nepal",
+        "zipcode": "5678921"
+      }
+    }
+  ]
 }
