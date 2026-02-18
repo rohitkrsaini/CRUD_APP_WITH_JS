@@ -3,7 +3,7 @@ const tableBody = document.getElementById("table-body");
 async function loadData() {
 
   try {
-    let resp = await fetch("http://localhost:5000/employees", {
+    let resp = await fetch("https://crud-app-with-js.onrender.com/employees", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -55,7 +55,7 @@ window.addEventListener("DOMContentLoaded", () => {
 async function handleDelete(id){
   console.log(id);
   try {
-    let resp = await fetch(`http://localhost:5000/employees/${id}`,{
+    let resp = await fetch(`https://crud-app-with-js.onrender.com/employees/${id}`,{
       method: "DELETE"
     })
     loadData();
@@ -82,7 +82,7 @@ tableBody.addEventListener("click", function (event) {
   if (event.target.classList.contains("btn-edit")) {
     const id = event.target.dataset.id;
     console.log("Edit clicked:", id);
-    window.location.href= `http://localhost:5500/pages/EditEmp.html?id=${id}`;
+    window.location.href= `https://crud-app-with-js.onrender.com/employees/pages/EditEmp.html?id=${id}`;
   }
 
 });
