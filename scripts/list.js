@@ -3,7 +3,7 @@ const tableBody = document.getElementById("table-body");
 async function loadData() {
 
   try {
-    let resp = await fetch("http://localhost:5000/employees", {
+    let resp = await fetch("https://crud-app-with-js.onrender.com/employees", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -55,7 +55,7 @@ window.addEventListener("DOMContentLoaded", () => {
 async function handleDelete(id){
   console.log(id);
   try {
-    let resp = await fetch(`http://localhost:5000/employees/${id}`,{
+    let resp = await fetch(`https://crud-app-with-js.onrender.com/employees/${id}`,{
       method: "DELETE"
     })
     loadData();

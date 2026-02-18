@@ -19,7 +19,7 @@ async function getEditEmp() {
     console.log("id", id)
 
     try {
-        let resp = await fetch(`http://localhost:5000/employees/${id}`,)
+        let resp = await fetch(`https://crud-app-with-js.onrender.com/employees/${id}`,)
         let data = await resp.json()
         console.log("data==>",data);
 
@@ -81,7 +81,7 @@ async function EditEmployee(id){
   };
 
   try {
-    let resp = await fetch(`http://localhost:5000/employees/${id}`, {
+    let resp = await fetch(`https://crud-app-with-js.onrender.com/employees/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
