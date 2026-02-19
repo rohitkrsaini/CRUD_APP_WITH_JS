@@ -83,7 +83,7 @@ tableBody.addEventListener("click", function (event) {
   if (event.target.classList.contains("btn-edit")) {
     const id = event.target.dataset.id;
     console.log("Edit clicked:", id);
-    window.location.href= `https://crud-app-with-js.onrender.com/employees/${id}s`;
+    window.location.href= `https://crud-app-with-js.onrender.com/employees/pages/EditEmp.html?id=${id}`;
   }
 
 });
