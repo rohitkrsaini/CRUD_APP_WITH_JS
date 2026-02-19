@@ -16,42 +16,41 @@ a{
     color: inherit;
 }
 
-/*================== NAVBAR ==================*/
-.navbar-container{
-    height: 80px;
-    width: 100%;
-    background: linear-gradient(135deg, #0a1f44, #143c8b);
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 60px;
-     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+/* ================== NAVBAR ================== */
+.navbar-container {
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(135deg, #0a1f44, #143c8b);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.logo{
-    font-size: 28px;
-    font-weight: 800;
-    letter-spacing: 1px;
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 
-.nav-link{
-    display: flex;
-    gap: 20px;
+.nav-links {
+  display: flex;
+  gap: 20px;
 }
 
-.nav-link a{
-    padding: 8px 16px;
-    border-radius: 6px;
-    font-weight: 600;
-    transition: all 0.3s ease;
+.nav-links a {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
 
-.nav-link a:hover{
-    background-color: #ffffff;
-    color: #0a1f44;
+.nav-links a:hover {
+  background: #ffffff;
+  color: #0a1f44;
 }
-
 /* ================== HERO SECTION ================== */
 .hero-container {
   height: calc(100vh - 80px);
