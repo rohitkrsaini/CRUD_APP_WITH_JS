@@ -46,12 +46,13 @@ employeeFormEle.addEventListener("submit", async (e) => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(newEmployeeData),// <-- SEND EMP DATA IN JSON-FORMAT 
+      body: JSON.stringify(newEmployeeData),// <-- SEND EMP DATA IN JSON-FORMAT  
     });
     //console.log(resp);
     //let data = await resp.json();
 //console.log(data);
     //alert(resp);
+    alert("Registration successful!")
     
   } catch (err) {
     console.log(err);
